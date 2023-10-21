@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sapp"
+version = "0.1.0"
+description = ""
+authors = ["MooSee2 <52461645+MooSee2@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sapp", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+dash = "^2.14.0"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
