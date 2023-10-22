@@ -10,7 +10,12 @@ packages = [{include = "sapp", from = "src"}]
 python = ">=3.9,<3.13"
 dash = "^2.14.0"
 pandas = "^2.1.1"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
 
 [build-system]
 requires = ["poetry-core"]
