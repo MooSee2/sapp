@@ -1,4 +1,4 @@
-from dash import html
+from dash import html, dcc
 
 
 def make_layout():
@@ -26,5 +26,17 @@ def make_layout():
             style={"width": "100%", "height": "50px"},
             id="box4",
             className="box",
+        ),
+        html.P(
+            children=["mouse"],
+            id="out",
+        ),
+        html.Button(
+            "A Button",
+            id="in",
+        ),
+        html.Button(
+            id="signal",
+            style={"display": "none"},
         ),
     ]
