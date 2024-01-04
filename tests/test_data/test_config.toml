@@ -1,0 +1,6 @@
+wateryear = 2022
+access = 1
+source = "nwis"
+realtime = true
+canal_dates = {"2023-01-01" = "2023-02-01"}
+# start_evaporation = "mm-dd"

@@ -14,6 +14,8 @@ python-dotenv = "^1.0.0"
 loguru = "^0.7.2"
 orjson = "^3.9.9"
 flask-cache = "^0.13.1"
+tomli = "^2.0.1"
+dataclass-wizard = "^0.22.2"
 
 
 [tool.poetry.group.dev.dependencies]
